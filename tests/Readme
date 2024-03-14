@@ -1,0 +1,5 @@
+Command to execute all tests in different browers in paralall
+npx playwright test --workers 3
+
+To run the specific test
+npx playwright test .\tests\example.spec.js
